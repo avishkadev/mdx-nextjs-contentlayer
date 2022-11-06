@@ -21,7 +21,6 @@ export const SingleArticle = ({ author, image, category, title, children }) => {
         <hr />
         <br />
         <div className='flex items-center'>
-          <Image src={author.image} width={50} height={50} alt='blog' />
 
           <div>
             <strong>{author.name}</strong>

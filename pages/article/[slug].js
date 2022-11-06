@@ -9,9 +9,10 @@ const usedcomponents = {
   SampleComponent,
 };
 const SinglePost = ({ article }) => {
-
   const MDXContent = useMDXComponent(article.body.code);
-
+  //console.log({article})
+ 
+ 
   return (
     <>
       <NextSeo title={article.title} description={article.seoDescription} />
